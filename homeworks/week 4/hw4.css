@@ -1,0 +1,28 @@
+
+        h1 {
+            font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+            color: black;
+            font-size: larger;
+
+        }
+
+        h2 {
+            font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+            color: rgb(47, 68, 68);
+            font-size: large;
+        }
+
+        h3 {
+            font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+            color: grey;
+            font-size: 12 px;
+        }
+        
+        body {
+            /*background-image: url("gradient_bg.png")*/
+            /* could not get the gradient image to work */
+            background-color: aliceblue;
+            border: 3px solid black;
+            padding: 15px;
+            margin: 30px;
+        }

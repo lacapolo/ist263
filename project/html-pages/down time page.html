@@ -1,88 +1,79 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Valence 7</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="project.css">
     </head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <div class="topnav">
+      <!--
       <a href="#home" class="active">Home</a>
       <div id="myLinks">
         <a href="#about">Competitions</a>
-      </div>
+      </div> -->
       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <!--Make Hamburger Menu Bigger-->
         <i class="fa fa-bars"></i>
       </a>
     </div>
     <!--Fix Hamburger Menu to load my pages-->
 
     <body>
-    <h1>Down Time</h1>
+      <h1 id="down-time">Down Time</h1>
     <main>
-        <!--Fix Carosel-->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-          
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="Val&Fred.jpeg" alt="Val and a Friend">
-              </div>
-          
-              <div class="item">
-                <img src="Lauren&Val.png" alt="Sleepy Time">
-              </div>
-          
-              <div class="item">
-                <img src="Snow.jpeg" alt="Playing in the Snow">
-              </div>
-            </div>
-          
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        <!--Add Carosel-->
         <section>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/hgzF-mtORLk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Val is very silly and likes to stick out his tongue but only if you pat his nose!</p>
+          <div class="row">
+              <div>
+                  <div>
+                    <iframe id="video" width="600" height="415" src="https://www.youtube.com/embed/hgzF-mtORLk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div>
+                    <p style="border: 3px solid black; background-color:lightsalmon; margin-right: 6%; margin-left: 5%; font-size: 30px;"> Val is very silly and likes to stick out his tongue!</p>
+                  </div>
+              </div> 
+
+              <div>
+                  <div>
+                    <iframe id="video" width="600" height="415" src="https://www.youtube.com/embed/sBLAEqwSgwM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div>
+                    <p style="border: 3px solid black; background-color:lightsalmon; margin-left: 6%; margin-right: 5%; font-size: 28px;">Val likes long walks that lead to him demanding attention!</p>
+                  </div>
+              </div>       
+              </section>
+
+        <section>
+          <div class="row" >
+            <div style="border: 8px solid black; background-color: pink; margin-right: 22%; margin-left: 2%;">
+              <div>
+                  <h2 style="background-color: pink; font-size: 50px;">What Val Loves:</h2>
+            
+                </div>
+                <div style="background-color: pink; text-align: left;">
+                  <ul class="loves" style="background-color: pink; text-align: left;">
+                    <li style="background-color: pink; text-align: left; font-size: 30px;">Long walks</li>
+                    <li style="background-color: pink; text-align: left; font-size: 30px;">Long grazes</li>
+                    <li style="background-color: pink; text-align: left; font-size: 30px;">Playing with his rubber ball</li>
+                    <li style="background-color: pink; text-align: left; font-size: 30px;">Chewing on any shoe</li>
+                    <li style="background-color: pink; text-align: left; font-size: 30px;">Kisses on the nose</li>
+                </ul>
+                </div>
+            </div> 
+
+            <div>
+                <div>
+                  <img src="../images/Kissesonthenose.png" alt="Kisses on the Nose" width="450" height="600">
+                  <!--Move image a little to the left-->
+                </div>
+            <!--Add Carousel-->
         </section>
-        <section>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sBLAEqwSgwM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>When Valence's owner is away at school his trainer and previous owner, Lauren Fischer, likes to take him on long hand walks that ultimately leads to Valence demanding attention and love while they walk!</p>
-        </section>
-        <section>
-            <h2>What Val Loves</h2>
-            <ul>
-                <li>Long walks</li>
-                <li>Long grazes</li>
-                <li>Playing with his rubber ball</li>
-                <li>Chewing on any shoe</li>
-                <li>Kisses on the nose</li>
+      </main>
+      <footer>
+          <ul class="footer">
+              <li style="background-color: lightblue;"><a href="https://www.fischerenterprisesinc.com" style="background-color: lightblue;" target="_blank">Fischer Enterprise</a></li>
+              <li style="background-color: lightblue;"><a href="mailto:lacapolo@syr.edu" style="background-color: lightblue;">Contact Me</a></li>
             </ul>
-            <aside>
-                <img src="Kissesonthenose.png" alt="Kisses on the Nose">
-            </aside>
-        </section>
-    </main>
-</body>
-<footer>
-    <section>
-        <a href="https://www.fischerenterprisesinc.com" target="_blank">Fischer Enterprise</a></p>
-    </section>
-    <section>
-        <a href="mailto:lacapolo@syr.edu">Contact Me</a>
-    </section>
-</footer>
-</html>
+        </footer>
+  </body>
+  </html>

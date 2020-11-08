@@ -1,6 +1,16 @@
 * {background-color: rgb(233, 233, 233)}
 * {font-family: 'Courier New', Courier, monospace;}
 
+#navbar {
+    list-style-type: none;
+    text-align: center;
+    border-style: solid;
+    border-color: lightblue;
+    background-color: lightblue;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 30px;
+}
 .footer {
     list-style-type: none;
     text-align: center;
@@ -49,17 +59,15 @@
     margin-left: 40px;
 }
 
-.loves {
-    margin-top: 5px;
-    margin-right: 320px;
-    margin-left: 40px;
-}
-
 #competitions {
-    position: relative;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 40px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 37%;
+    background-color: lightpink;"
+    
 }
 
 #WEF {
@@ -117,9 +125,9 @@
 #comp {
     border-style: solid;
     border-color: black;
-    background-color: lightblue;
-    margin-right: 8%;
-    margin-left: 18%;
+    background-color: lightyellow;
+    margin-right: 10%;
+    margin-left: 15%;
     margin-top: 8%;
     margin-bottom: 1%;
 }

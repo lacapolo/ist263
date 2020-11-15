@@ -132,10 +132,8 @@
     margin-bottom: 1%;
 }
 
-#googlemap {
+.map {
     border-style: solid;
     border-color: black;
     background-color: lightgreen;
-    margin-left: 40%;
-    margin-bottom: 2%;
 }

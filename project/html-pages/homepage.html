@@ -1,86 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="project.css">
         <title>Valence 7</title>
     </head>
     
     <body>
+        <!--
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <div class="navbar-nav" id="navbar">
                 <a class="nav-link" href="https://lacapolo.github.io/ist263/project/html-pages/down%20time%20page.html" id="navbar">Down Time</a>
                 <a class="nav-link" href="https://lacapolo.github.io/ist263/project/html-pages/competition-page.html" id="navbar">Competitions</a>
               </div>
             </div>
-          </nav>
+          </nav> -->
+
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://lacapolo.github.io/ist263/project/html-pages/homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://lacapolo.github.io/ist263/project/html-pages/competition-page.html">Competitions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://lacapolo.github.io/ist263/project/html-pages/down-time-page.html">Down Time</a>
+            </li>
+          </ul>
+
+    <div class="container">
 
     <main>
         <section>
-            <h1 style="text-align: center; font-size: 40px; border-color: black; border-style: solid; margin-left: 35%; margin-right: 37%; background-color: lightsalmon;">Valence 7</h1>
+            <h1 style="text-align: center; font-size: 40px; border-color: black; border-style: solid; background-color: lightsalmon;">Valence 7</h1>
         </section>
 
-        <section style="margin-left: 35%; margin-bottom: .5%;">
-            <img src="../images/Headshot.jpeg" width="400" height="500" alt="Valence 7's Headshot">
+        <section class="d-block d-lg-flex">
+            <div class="col-12 col-lg-6">
+                <img src="../images/Headshot.jpeg" alt="Valence 7's Headshot" style="width: 100%;">
+            </div>
+            <div class="col-12 col-lg-6">
+                <img src="../images/Val and Lauren C.jpeg" alt="Valence 7 & his owner" style="width: 100%;">
+            </div>
         </section>
 
-        <section class=row>
-            <div class="col-6 col-sm-12" id="about" style="background-color: lightyellow;">
-                <h2 style="background-color: lightyellow; font-size: 30px;">About Val</h2>
-                <p style="background-color: lightyellow; font-size: 20px; margin-right: .5%; margin-left: .5%;">
+        <section class="d-block d-lg-flex">
+            <div class="col-12 col-lg-6" id="about" style="background-color: lightyellow; margin: 1em;">
+                <h2 style="background-color: lightyellow; font-size: 40px;">About Val</h2>
+                <p style="background-color: lightyellow; font-size: 20px;">
                     Valence 7 is an 18 year old warm blood from Germany. He has a spunky personality and will never fail to make you laugh. He is great with kids, adults, dogs, and other horses. He loves to go to competitions and is always game for long walks and grazes. You can find more important information further down the page or you contact the owner. Contact information can be found at the bottom of the page as well.
                 </p>
             </div>
-            <div class="col-1 col-sm-12" id="contact">
-                <h4 class="contact" style="background-color: lightblue; font-size: 20px;">Contact Information</h4>
-                <p class="contact" style="background-color: lightblue; font-size: 18px; margin-left: 4%; margin-right: 4%; text-align: center;">If you are interested and want more information on Valence 7 please contact Cheryl Fischer at her <a href="https://www.fischerenterprisesinc.com" target="_blank" style="background-color: lightblue;">website</a></p>
+            <div class="col-12 col-lg-6" id="about" style="background-color: lightblue; margin: 1em;">
+                <h4 class="contact" style="background-color: lightblue; font-size: 40px;">Contact Information</h4>
+                <p class="contact" style="font-size: 25px; background-color: lightblue;">If you are interested and want more information on Valence 7 please contact Cheryl Fischer at her <a href="https://www.fischerenterprisesinc.com" target="_blank" style="background-color: lightblue;">website</a></p>
             </div>
         </section>
 
         <section>
-            <div class="row">
-                <div class="col-sm-12" style="border: 3px solid black; background-color: lightpink; margin-left: 10%; margin-top: 2%;">
-                <h3 style="background-color: lightpink; font-size: 30px;">Information</h3>
-                        <ul style="background-color: lightpink; list-style-type: circle; list-style-position: inside;">
-                            <li id="usef-id">USEF ID: 5261777</li>
-                            <li id="usef-id">DOB: 6/17/2002</li>
-                            <li id="usef-id">Age: 18</li>
-                            <li id="usef-id">Breed: Dutch Warmblood</li>
-                            <li id="usef-id">Color: Dark Bay</li>
-                            <li id="usef-id">Size: 16 Hands</li>
-                            <li id="usef-id">Stars: 1</li>
-                            <li id="usef-id">Socks: None</li>
-                            <li id="usef-id">Sex: Gelding</li>
-                            <li id="usef-id">Sire: Andiamo</li>
-                            <li id="usef-id">Dam: Miss Quickstar</li>
-                            <li id="usef-id">Breeder: P. Kerckhoffs</li>
-                            <li id="usef-id">Previous Owner: Lauren Fischer</li>
-                            <li id="usef-id">Stabled: Fischer Enterprises (NY)</li>
-                            <li id="usef-id">Availability: lessons & half lease</li>
+            <div class="d-block d-lg-flex">
+                <div class="col-12 col-lg-6" style="border: 3px solid black; background-color: lightpink; margin: 1em;">
+                <h3 style="background-color: lightpink; font-size: 40px; text-align: center;">Information</h3>
+                        <ul class="usef-specs">
+                            <li>USEF ID: 5261777</li>
+                            <li>DOB: 6/17/2002</li>
+                            <li>Age: 18</li>
+                            <li>Breed: Dutch Warmblood</li>
+                            <li>Color: Dark Bay</li>
+                            <li>Size: 16 Hands</li>
+                            <li>Stars: 1</li>
+                            <li>Socks: None</li>
+                            <li>Sex: Gelding</li>
+                            <li>Sire: Andiamo</li>
+                            <li>Dam: Miss Quickstar</li>
+                            <li>Breeder: P. Kerckhoffs</li>
+                            <li>Previous Owner: Lauren Fischer</li>
+                            <li>Stabled: Fischer Enterprises (NY)</li>
+                            <li>Availability: lessons & half lease</li>
                         </ul>
                     </div>
-                    <div style="border: 3px solid black; margin-left: 3%; margin-right: 4%; background-color: lightgreen; margin-top: 2%;">
-                        <h3 style="background-color: lightgreen; font-size: 30px;">Location</h3>
+                    <div class="col-12 col-lg-6" style="border: 3px solid black; background-color: lightgreen; margin: 1em;">
+                        <h3 style="background-color: lightgreen; font-size: 40px; text-align: center;">Location</h3>
                         <div id="Map" style="height: 200; width: 200;"></div>
-                        <img src="../images/map image.png" alt="Val's Barn" height="400" width="600">
+                        <img src="../images/map image.png" alt="Val's Barn" style= "width: 100%">
                        <!-- Could not get the iframe to work so I inserted an image instead <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=41.2164%2C-73.6826&key=AIzaSyB8DuhJxX6a6LF8XhVAUw_DHIxRGDMYiFY" allowfullscreen></iframe> -->
+                       <p style="background-color: lightgreen; font-size: 18px;">Valence 7 is located on a small farm in Bedford Hills, NY. He has lived at the Fischer Enterprise Farm (Westchester) for seven years. In the past he would spend his winters in Florida competing in the Winter Equestrian Festival but has spent the last three in New York. Fischer Enterprises is a private farm owned by Cheryl Fischer.</p>
                     </div>
                 </div>
-        </section>
-        
-        <section>
-            <div class="row" style="margin-top: .5%;">
-                <div id="location">
-                    <p style="background-color: lightgreen; ">Valence 7 is located on a small farm in Bedford Hills, NY. He has lived at the Fischer Enterprise Farm (Westchester) for seven years. In the past he would spend his winters in Florida competing in the Winter Equestrian Festival but has spent the last three in New York. Fischer Enterprises is a private farm owned by Cheryl Fischer.</p>
-                        </div>
-                    </div>
-        </section>
-        
+        </section>        
     </main>
+    </div>
     <footer>
         <ul class="footer">
             <li style="background-color: lightblue;"><a href="https://www.fischerenterprisesinc.com" style="background-color: lightblue;" target="_blank">Fischer Enterprise</a></li>
             <li style="background-color: lightblue;"><a href="mailto:lacapolo@syr.edu" style="background-color: lightblue;">Contact Me</a></li>
           </ul>
       </footer>
-</body>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    </body>
 </html>
